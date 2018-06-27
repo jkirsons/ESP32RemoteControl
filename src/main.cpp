@@ -7,11 +7,11 @@
  *  2 - Download and install the PlatformIO plugin
  *  3 - Install the espressif32 Platform
  *  4 - Set your WiFi SSID and Password Below
- *  5 - Build (in the taskbar at the bottom)
+ *  5 - PlatformIO: Build (in the taskbar at the bottom)
  *  6 - In WebResponseImpl.h (ESP Async WebServer/src/WebResponseImpl.h)
  *       change line 62 to: #define TEMPLATE_PLACEHOLDER '@'
- *  7 - Plug in your Feather32 / TTGO Esp32
- *  8 - Upload (in the taskbar at the bottom)
+ *  7 - Plug in your Adafruit Feather32 or TTGO Esp32
+ *  8 - PlatformIO: Upload (in the taskbar at the bottom)
  *  9 - Connect the the Serial Monitor (in the taskbar at the bottom)
  *  10 - Note the IP address of the ESP32, and connect to this with your browser
  * 
