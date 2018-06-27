@@ -104,6 +104,8 @@ DCMotorController dcMotors[8] =
  * 2 = dc brushed x2
  */
 int channelMode[4] = {0, 0, 0, 0};
+
+// temporary storage:
 int motorSpeed[8] = {0,0,0,0,0,0,0,0};
 
 AsyncWebServer server(80);
